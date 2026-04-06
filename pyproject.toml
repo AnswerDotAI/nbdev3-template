@@ -30,6 +30,7 @@ version = {attr = "{lib_path}.__version__"}
 include = ["{lib_path}"]
 
 [tool.nbdev]
+allowed_metadata_keys = ['solveit_dialog_mode', 'solveit_ver']
 nbs_path = "."
 doc_path = "_docs"
 recursive = false
