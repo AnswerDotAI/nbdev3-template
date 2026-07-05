@@ -35,3 +35,6 @@ allowed_cell_metadata_keys = ['solveit_ai']
 nbs_path = "."
 doc_path = "_docs"
 recursive = false
+
+[tool.chkstyle]
+skip_paths = ["_modidx.py"]
