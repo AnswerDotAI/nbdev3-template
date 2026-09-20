@@ -3,7 +3,7 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "{repo}"
+name = "nbdev3-template"
 description = "{description}"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -16,15 +16,12 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
 ]
-dynamic = ["version"]
+version = "0.0.4"
 dependencies = []
 
 [project.urls]
 Repository = "https://github.com/{user}/{repo}"
 Documentation = "https://{user}.github.io/{repo}/"
-
-[tool.setuptools.dynamic]
-version = {attr = "{lib_path}.__version__"}
 
 [tool.setuptools.packages.find]
 include = ["{lib_path}"]
