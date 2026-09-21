@@ -3,12 +3,12 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "nbdev3-template"
+name = "{repo}"
 description = "{description}"
 readme = "README.md"
 requires-python = ">=3.9"
 license = "Apache-2.0"
-authors = [{name = "{author}", email = "{author_email}"}]
+authors = [{name = "author", email = "author_email@dom"}]
 keywords = ["nbdev", "jupyter", "notebook"]
 classifiers = [
     "Development Status :: 3 - Alpha",
